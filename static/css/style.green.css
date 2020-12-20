@@ -347,7 +347,7 @@ SIDEBAR + RIGHT COLUMN
   text-decoration: none;
 }
 .sidebar-p {
-  color: #999999;
+  color: #4d4d4d;
   font-size: 14px;
 }
 .sidebar-menu {
@@ -385,7 +385,7 @@ SIDEBAR + RIGHT COLUMN
   padding-top: 40px;
 }
 .content-column.white-background {
-  background: #fff;
+  background: #e4ece3;
   min-height: 100vh;
 }
 .grid {
@@ -408,7 +408,7 @@ SIDEBAR + RIGHT COLUMN
 }
 .content-column-content p,
 .content-column-content li {
-  color: #999999;
+  color: #4d4d4d;
 }
 .content-column-content ul li {
   list-style-type: none;

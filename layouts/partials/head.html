@@ -31,5 +31,6 @@
 {{ with .OutputFormats.Get "RSS" }}
   {{ printf `<link href="%s" rel="%s" type="%s" title="%s" />` .Permalink .Rel .MediaType.Type $.Site.Title | safeHTML }}
 {{ end }}
-{{ template "_internal/google_analytics_async.html" . }}
+{{ template "_internal/google_analytics.html" . }}
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 <script src="{{ "js/jquery.min.js" | absURL }}"></script>
