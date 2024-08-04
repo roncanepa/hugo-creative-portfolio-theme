@@ -7,8 +7,10 @@
          <h1>{{ .Title }}</h1>
          {{ .Content }}
          {{ with .Site.Params.email }}
-         <h4>Submit the form below to get started.</h4>
+         <h4>Submit the form below or call to get started.</h4>
          <p>Please be sure to also check your email 'spam' folder.</p>
+         <p>Phone: <a href='tel:3526720404' style="text-decoration: none;">352-672-0404</a></p>
+         
          <form id="contact-form" class="contact-form form" method="post" action="https://formspree.io/{{ . }}">
            <div class="controls">
              <div class="form-group">
